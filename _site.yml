@@ -1,8 +1,13 @@
-name: "my-website"
+name: "Marine Olivari Professeur de Danse"
+description: 
 navbar:
-  title: "My Website"
+  title: "Marine Olivari Professeur de Danse"
   left:
-    - text: "Home"
+    - text: "Accueil"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Formation"
+      href: education.html
+    - text: "Cours horaires et tarifs"
+      href: classes.html
+    - text: "Contact"
+      href: contact.html
