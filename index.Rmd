@@ -10,6 +10,7 @@ output:
 ---
 
 
+
 ```{r setup, include=FALSE}
 ## Global options
 knitr::opts_chunk$set(cache = TRUE)
@@ -21,12 +22,13 @@ Bienvenue sur le site de [Marine Olivari](#education).
 
 Je donne des cours de danse Modern-Jazz et de [barre au sol](#floorbarre), mais également des cours de renforcement musculaire et stretching pour adultes de tous niveaux.
 
-Les cours collectifs ont lieu sur Zoom ou au [studio Cambronne situé 71 Rue Fondary, 75015 Paris](https://www.studiocambronne.com/enseignants/marine_olivari.html).
+Les cours collectifs ont lieu sur Zoom ou au [Studio Cambronne]((https://www.studiocambronne.com/enseignants/marine_olivari.html)) situé [71 Rue Fondary, 75015 Paris](https://goo.gl/maps/Ayt4KuaAHZLjuoz36).
 
 Je donne aussi des cours particuliers sur demande, [me contacter](#contact)
 
-Rendez-vous sur l'onglet [Horaires et tarifs](#contact) trouver l'ensemble des horaires et tarifs pour mes cours réguliers.
+Rendez-vous sur l'onglet [Horaires et tarifs](#horaires) trouver l'ensemble des horaires et tarifs pour mes cours réguliers.
 
+![Marine Olivari](img/Photo_Marine_Olivari_page_vertical.jpg)
 
 # Barre au sol {#floorbarre}
 
@@ -108,6 +110,7 @@ Tarif 50€
 
 Après plusieurs années de pratique intensive de la danse, j’ai découvert la barre au sol ce qui fût une révélation dans mon approche de la danse et de la pédagogie.
 
+
 # Contact
 
 Vous pouvez me contacter :
@@ -115,6 +118,7 @@ Vous pouvez me contacter :
 - par SMS ou téléphone au 06.63.06.18.30
 - par email à [marineolivari@hotmail.com](mailto:marineolivari@hotmail.com)
 
+![Portrait Marine Olivari](img/Photo_Marine_Olivari_mosaique.jpg){width:50%}
 
 
 
