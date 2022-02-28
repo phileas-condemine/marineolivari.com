@@ -1,5 +1,0 @@
----
-title: "Horaires et tarifs"
----
-
-More about this website.
