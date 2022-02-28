@@ -1,5 +1,5 @@
 ---
-title: "Marine Olivari - professeur de Danse"
+title: "Cours de Danse Marine Olivari"
 description: "Le site professionnel de Marine Olivari, professeur de Danse, de barre au sol et de renforcement musculaire"
 ---
 

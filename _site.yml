@@ -1,8 +1,8 @@
-name: "Marine Olivari Professeur de Danse"
+name: "Cours de Danse Marine Olivari"
 output_dir: "docs"
 description: "Cours de Barre au Sol à Paris 15 75015"
 navbar:
-  title: "Marine Olivari Professeur de Danse"
+  title: "Cours de Danse Marine Olivari"
   type: inverse
   left:
     - text: "Accueil"
