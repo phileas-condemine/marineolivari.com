@@ -3,17 +3,29 @@ title: "Marine Olivari - professeur de Danse"
 description: "Le site professionnel de Marine Olivari, professeur de Danse, de barre au sol et de renforcement musculaire"
 ---
 
+:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;"}
+
+::: {}
+
 
 Bienvenue sur le site de [Marine Olivari](education.html).
 
 Je donne des cours de danse Modern-Jazz et de [barre au sol](floorbarre.html), mais également des cours de renforcement musculaire et stretching pour adultes de tous niveaux.
 
-Les cours collectifs ont lieu sur Zoom ou au [Studio Cambronne](https://www.studiocambronne.com/enseignants/marine_olivari.html){:target="_blank"} situé [71 Rue Fondary, 75015 Paris](https://goo.gl/maps/Ayt4KuaAHZLjuoz36){:target="_blank"}.
+Les cours collectifs ont lieu sur Zoom ou au [Studio Cambronne](https://www.studiocambronne.com/enseignants/marine_olivari.html){target="_blank"} situé [71 Rue Fondary, 75015 Paris](https://goo.gl/maps/Ayt4KuaAHZLjuoz36){target="_blank"}.
 
-Je donne aussi des cours particuliers sur demande, [me contacter](contact.html)
+Je donne aussi des cours particuliers sur demande. [Voir l'onglet Contact](contact.html).
 
-Rendez-vous sur l'onglet [Horaires et tarifs](horaires.html) trouver l'ensemble des horaires et tarifs pour mes cours réguliers.
+Rendez-vous sur l'onglet [Horaires et tarifs](horaires.html) pour trouver l'ensemble des horaires et tarifs des cours réguliers.
 
-<center>
-![Marine Olivari](img/Photo_Marine_Olivari_page_vertical.jpg){ width=400px }
-</center>
+:::
+
+::: {}
+
+![Marine Olivari](img/Photo_Marine_Olivari_page_vertical.jpg){ width=200px }
+
+
+:::
+
+::::
+

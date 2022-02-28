@@ -12,6 +12,6 @@ system('git config --global user.email "phileas.condemine@gmail.com"')
 system('git config --global user.name "Phileas Condemine"')
 
 system("git add .")
-# system('git commit -m "rmdformats::material not mobile !"')rmdformats::material
+# system('git commit -m "back to rmd render_site"')
 system(sprintf('git commit -m "update %s"',Sys.Date()))
 system("git push origin master")

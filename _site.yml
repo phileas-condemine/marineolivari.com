@@ -1,8 +1,8 @@
-name: "Marine Olivari Professeur de Danse"
+name: "Marine Olivari - Professeur de Danse"
 output_dir: "docs"
 description: "Cours de Barre au Sol à Paris 15 75015"
 navbar:
-  title: "Marine Olivari Professeur de Danse"
+  title: "Marine Olivari - Professeur de Danse"
   type: inverse
   left:
     - text: "Accueil"
@@ -12,7 +12,7 @@ navbar:
     - text: "Formation"
       href: education.html
     - text: "Cours horaires et tarifs"
-      href: classes.html
+      href: horaires.html
     - text: "Contact"
       href: contact.html
       
@@ -23,3 +23,4 @@ output:
     highlight: textmate
     include:
       after_body: footer.html
+    css: styles.css

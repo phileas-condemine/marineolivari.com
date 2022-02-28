@@ -3,11 +3,22 @@ title: "Contact"
 description: "Pour me contacter : numéro de téléphone et adresse email"
 ---
 
+:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;"}
+
+::: {}
 
 Vous pouvez me contacter :
 
 - par SMS ou téléphone au 06.63.06.18.30
-- par email à [marineolivari@hotmail.com](mailto:marineolivari@hotmail.com)
+- par email à l'adresse [marineolivari@hotmail.com](mailto:marineolivari@hotmail.com)
 
-<!-- ![Portrait Marine Olivari](img/Photo_Marine_Olivari_mosaique.jpg){ width=200px } -->
+:::
 
+::: {}
+
+![Marine Olivari](img/marine_danse_battement.jpg){ width=200px }
+
+
+:::
+
+::::
