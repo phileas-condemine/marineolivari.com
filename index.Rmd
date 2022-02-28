@@ -1,13 +1,11 @@
 ---
-title: "Cours de Danse Marine Olivari"
+title: "Bienvenue sur le site de Marine Olivari"
 description: "Le site professionnel de Marine Olivari, professeur de Danse, de barre au sol et de renforcement musculaire"
 ---
 
 <div class = "row">
 <div class = "col-sm-8">
 
-
-Bienvenue sur le site de [Marine Olivari](education.html).
 
 Je donne des cours de danse Modern-Jazz et de [barre au sol](floorbarre.html), mais également des cours de renforcement musculaire et stretching pour adultes de tous niveaux.
 
