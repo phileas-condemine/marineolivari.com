@@ -3,9 +3,8 @@ title: "Mon approche de la barre au sol"
 description: "La barre au sol vue par Marine Olivari"
 ---
 
-:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;"}
-
-::: {}
+<div class = "row">
+<div class = "col-sm-8">
 
 La barre au sol permet de travailler le muscle en longueur et en profondeur. La position au sol permet de s’affranchir des contraintes d’équilibre et de gestion du poids du corps pour se concentrer sur le placement, les directions et la respiration.
 
@@ -19,13 +18,14 @@ Ce que j’essaie de valoriser dans mon cours, c’est une pratique tous niveaux
 
 La barre au sol s’apparente à la danse, tout le cours se fait en musique et j’utilise différents styles musicaux, adaptés aux exercices pour travailler la musicalité du mouvement.
 
-:::
 
-::: {}
+
+</div>
+<div class = "col-sm-4">
 
 ![Marine Olivari](img/Photo_Marine_Olivari_mosaique.jpg){ width=200px }
 
 
-:::
 
-::::
+</div>
+</div>

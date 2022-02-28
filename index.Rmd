@@ -3,9 +3,8 @@ title: "Marine Olivari - professeur de Danse"
 description: "Le site professionnel de Marine Olivari, professeur de Danse, de barre au sol et de renforcement musculaire"
 ---
 
-:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;"}
-
-::: {}
+<div class = "row">
+<div class = "col-sm-8">
 
 
 Bienvenue sur le site de [Marine Olivari](education.html).
@@ -18,14 +17,12 @@ Je donne aussi des cours particuliers sur demande. [Voir l'onglet Contact](conta
 
 Rendez-vous sur l'onglet [Horaires et tarifs](horaires.html) pour trouver l'ensemble des horaires et tarifs des cours réguliers.
 
-:::
-
-::: {}
+</div>
+<div class = "col-sm-4">
 
 ![Marine Olivari](img/Photo_Marine_Olivari_page_vertical.jpg){ width=200px }
 
+</div>
+</div>
 
-:::
-
-::::
 
