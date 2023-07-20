@@ -13,7 +13,7 @@
 
 <title>Planning des cours et tarifs</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -32,6 +32,15 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E9X0K2QM5J"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E9X0K2QM5J');
+</script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -52,6 +61,7 @@ if (window.hljs) {
   }
 }
 </script>
+
 
 
 
@@ -81,6 +91,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -138,11 +151,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -171,8 +188,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -180,16 +197,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -233,7 +243,7 @@ $(document).ready(function () {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -283,12 +293,15 @@ $(document).ready(function () {
 </ul>
 <div id="cours_collectifs" class="section level2">
 <h2>Cours collectifs tous publics</h2>
-<p>Cours de barre au sol au Studio Cambronne</p>
+<p>Cours de barre au sol au Studio Cambronne, nombre de places
+limité.</p>
 <ul>
+<li>lundi à 20h</li>
 <li>mardi à 20h</li>
-<li>jeudi à 19h30</li>
 </ul>
-<p>Tarif 15€</p>
+<p>Tarif à l’unité 19€</p>
+<p>Abonnement annuel 640€ soit 40 cours à 16€ le cours et <strong>place
+garantie toute l’année</strong>.</p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.601448525861!2d2.2948280154248675!3d48.846740409481356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e670178c1c5dfd%3A0xcdeddcd81b7dd27f!2s71%20Rue%20Fondary%2C%2075015%20Paris!5e0!3m2!1sen!2sfr!4v1646055588981!5m2!1sen!2sfr" width="100%" height="450" style="border:0;" allowfullscreen loading="lazy">
 </iframe>
 </div>
@@ -296,8 +309,7 @@ $(document).ready(function () {
 <h2>Cours sur Zoom</h2>
 <p>Cours réguliers sur Zoom</p>
 <ul>
-<li>jeudi 19h30</li>
-<li>dimanche 10h15</li>
+<li>dimanche 10h30</li>
 </ul>
 <p>Tarif 10€</p>
 </div>
@@ -310,7 +322,6 @@ de l’association sportive de l’entreprise.</p>
 musculaire + stretching</li>
 <li>Le Sénat : 2 types de cours proposés 1) modern-jazz 2) renforcement
 musculaire + stretching)</li>
-<li>Le Figaro : barre au sol</li>
 </ul>
 <p><strong>N’hésitez pas à me contacter pour que je vienne donner des
 cours dans votre entreprise</strong></p>
@@ -320,7 +331,7 @@ cours dans votre entreprise</strong></p>
 <p>Possibilité de cours particuliers flexibles ou réguliers de barre au
 sol ou renforcement musculaire + stretching.</p>
 <p>Les cours ont lieu sur Zoom ou chez vous selon votre préférence.</p>
-<p>Tarif 50€</p>
+<p>Tarif 60€ sur place et 50€ sur Zoom.</p>
 <p><a href="contact">Me contacter</a> par email ou téléphone pour plus
 d’informations.</p>
 </div>
@@ -331,6 +342,8 @@ d’informations.</p>
 <li>Par virement bancaire</li>
 <li>En espèce pour les cours présentiels</li>
 </ul>
+<p>Facture sur demande pour prise en charge par votre comité
+d’entreprise.</p>
 </div>
 
 <footer>
