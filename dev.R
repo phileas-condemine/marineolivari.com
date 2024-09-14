@@ -17,7 +17,7 @@ system(sprintf('git commit -m "update %s"',Sys.Date()))
 system("git push origin master")
 
 print("
-to publish the website on netim (marineolivari.com),
+to publish the website on netim (marineolivari.com) IZ15609
 open filezilla, connect to the hosting server,
 copy the docs/ files in the public_www/ folder on the remote.
       ")
