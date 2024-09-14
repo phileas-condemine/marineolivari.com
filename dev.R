@@ -1,6 +1,6 @@
 # usethis::use_git()
 
-usethis::use_mit_license("Marine Olivari")
+# usethis::use_mit_license("Marine Olivari")
 
 # rmarkdown::render("index.Rmd")
 rmarkdown::clean_site(preview = FALSE)
